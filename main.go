@@ -15,7 +15,7 @@ func index(c *gin.Context) {
 func main() {
 	godotenv.Overload()
 
-	gin.SetMode(gin.DebugMode)
+	//gin.SetMode(gin.DebugMode)
 
 	router := gin.Default()
 	router.LoadHTMLGlob("assets/*.html")
